@@ -1,42 +1,66 @@
+body {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  color: #454f5b;
+  padding: 100px;
+}
+
 input {
   width: 300px;
-  height: 18px;
-  font-size: 16px;
+  height: 24px;
   margin: 0;
+  font-size: 16px;
+  color: #454f5b;
+  padding: 5px 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-right: 50px;
 }
 textarea {
   font-size: 16px;
+  color: #454f5b;
+  padding: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  resize: none;
+  margin-right: 50px;
 }
-button {
-  font-size: 16px;
-  padding: 10px;
+::placeholder {
+  color: #999999;
 }
+
 p {
-  font-family: Arial;
   font-size: 16px;
+  padding: 0px 0px 15px 0px;
+  margin: 0px;
+}
+h1 {
+  color: #272e37;
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Poppins", serif;
+}
+h2 {
+  font-weight: 700;
+  font-family: "Poppins", serif;
 }
 #signature {
-  top: 150px;
-  left: 350px;
-  position: absolute;
   width: 400px;
   height: 250px;
 }
 
 #preview {
-  top: 150px;
-  left: 800px;
-  position: absolute;
   width: 400px;
   height: 250px;
 }
 
-.phone {
-  display: flex;
-  flex-direction: row;
-}
 
 .phone-element {
   width: 60px;
   margin: 0 10px 0 0;
+}
+
+#container {
+  display: flex;
 }

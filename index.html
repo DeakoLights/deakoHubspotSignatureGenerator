@@ -8,27 +8,38 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1>Hubspot signature generator</h1>
-<h2>Step 1</h2>
- <p>Enter your signature information below:</p>
-<form id="sig">
-  <p><input placeholder="First name" type="text" id="firstname" /></p>
-  <p><input placeholder="Last name" type="text" id="lastname" /></p>
-  <p><input placeholder="Title" type="text" id="title" /></p>
-  <div class="phone">
-    <input placeholder="Phone" type="text" id="phone" name="phone">
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Poppins:700">
+</head>
+
+<body>
+  <h1>Hubspot signature generator</h1>
+  <h2>Step 1</h2>
+  <p>Enter your <strong>signature information</strong> below:</p>
+  <div id="container">
+    <form id="sig">
+      <p><input placeholder="First name" type="text" id="firstname" /></p>
+      <p><input placeholder="Last name" type="text" id="lastname" /></p>
+      <p><input placeholder="Title" type="text" id="title" /></p>
+      <p><input placeholder="Phone" type="text" id="phone" /></p>
+      <p><input placeholder="Email" type="text" id="email" /></p>
+      <p><input style="width:322px; height:36px;background-color: #45b0c2;color: #fff;    border:none;" type="submit" value="Generate signature code">
+      </p>
+    </form>
+    <textarea id="signature" placeholder="HTML signature"></textarea>
+    <div id="preview"></div>
   </div>
-  <p><input placeholder="Email" type="text" id="email" /></p>
-  <p><input type="submit" value="Generate signature code">
-  </p>
-</form>
-<textarea id="signature" placeholder="HTML signature"></textarea>
-  <div id="preview"></div>
-<h2>Step 2</h2>
- <p>Use the button to generate your HTML signature (make sure to check the preview to the right to make sure all information is correct).</p>
-<h2>Step 3</h2>
-<p>Copy the custom HTML and return to <a href="https://deakolights.atlassian.net/wiki/spaces/COM/pages/2440921094/Hubspot+signature+generator" target='_blank'>Confluence</a></p>
+  <h2>Step 2</h2>
+  <p>Select the button to generate your <strong>HTML signature </strong> <i>(make sure to check the preview to the right to make sure all information is correct)</i></p>
+  <h2>Step 3</h2>
+  <p><strong>Copy the custom HTML</strong> and return to <strong><a href="https://deakolights.atlassian.net/wiki/spaces/COM/pages/2440921094/Hubspot+signature+generator" target='_blank'>Confluence</a></strong></p>
+</body>
+
+</html>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
